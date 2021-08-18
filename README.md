@@ -17,8 +17,12 @@ Whole design is fully responsive.
 Used simple CSS throughout the code for beginners to easily understand it.
 
 To use the code, clone this code and create firebase.js in src folder.
+
 Write the following code: 
+
 and paste firebase config files in <<< FIREBASE CONFIG >>> and host it in firebase .
+
+
 ////////////////////////////
 
 import firebase from "firebase";
