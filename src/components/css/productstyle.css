@@ -1,0 +1,17 @@
+
+.products__row{
+    z-index: 1;
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width:768px){
+    .products__row{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,80 @@
+
+
+.login{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: white;
+    height: auto;
+}
+
+.login__logo{
+    align-self: center;
+}
+
+.login__logo__img{
+    width: 150px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.login__info{
+    width: 100%;
+}
+
+.login__info input{
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+}
+
+.login__info h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login__signin__btn{
+    margin: 20px 0px;
+    width: 100%;
+    padding: 5px;
+    background-color: #eb8d1bc2;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+
+.login__button{
+    padding: 5px 0px;
+}
+
+.login__button button{
+    padding: 5px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+@media (max-width:768px){
+    .login{
+        margin: 20px auto;
+        width: 90%;
+        padding: 30px 10px;
+    }
+
+    .login__info h1{
+        text-align: center;
+    }
+
+    .login__info input{
+        margin: 5px 0px;
+        padding: 0px;
+        height: 25px;
+    }
+
+    .login__signin__btn{
+        margin: 10px 0px;
+    }
+
+
+}

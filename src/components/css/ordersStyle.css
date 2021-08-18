@@ -1,0 +1,40 @@
+.orders{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    flex: 1;
+}
+
+.orders__image img{
+    align-self: center;
+    max-height: 200px;
+    min-width: 200px;
+    object-fit: contain;
+}
+
+.orders__info h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+.orders__info h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+.orders__info button{
+    background-color: #eb8d1bc2;
+    border: 1px solid black;
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+

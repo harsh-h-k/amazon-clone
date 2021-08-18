@@ -1,0 +1,40 @@
+.subtotal{
+    margin: 0px 10px;
+    padding:0px 10px;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-height: auto;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+}
+
+.subtotal h1{
+    text-align: center;
+    font-weight: 400;
+    margin: 5px 0px;
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+.subtotal__info p{
+    font-size: 16px;
+    margin: 2px 0px;
+}
+
+.subtotal__value{
+    font-size: 24px ;
+}
+
+.subtotal__button{
+    margin: 15px 0px;
+}
+
+@media (max-width:768px){
+    .subtotal{
+        text-align: center;
+        order: 1;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+.body__container{
+   
+ max-width: 1500px;
+ 
+ margin: 0px auto;
+ 
+ 
+}
+
+.body__container img{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgb(0,0,0,1) 35% ,rgb(0,0,0,0));
+    width: 100%;
+    margin-bottom: -150px;
+   
+}
+
+@media (max-width:768px){
+    .body__container img{
+        margin-bottom: -25px;
+    }
+}

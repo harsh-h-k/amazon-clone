@@ -1,0 +1,25 @@
+
+
+.checkout__banner img{
+    width: 100%;
+}
+
+.checkout__orders__basket{
+    display: flex;
+}
+
+@media (max-width:768px){
+
+    .checkout__orders__basket{
+        flex-direction: column;
+    }
+
+    .checkout__placed__orders{
+        flex-direction: column;
+        order: 2;
+    }
+
+    .checkout__orders h1{
+        text-align: center;
+    }
+}
